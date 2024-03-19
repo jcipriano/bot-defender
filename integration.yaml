@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://sdk.netlify.com/sdk/config-schema.json
+config:
+  slug: bot-defender
+  name: bot-defender
+  description: Bot Defender is a behavior-based bot management solution that protects your websites, mobile applications, and APIs from automated attacks, safeguarding your online revenue, reducing the risk of data breaches, and improving operational efficiency.
+  integrationLevel: site
+  scopes:
+    site: ["read", "write"]
