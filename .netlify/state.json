@@ -1,3 +1,20 @@
 {
-	"siteId": "31b69c38-7e9f-4fe0-b693-1508f31c2a32"
+	"siteId": "31b69c38-7e9f-4fe0-b693-1508f31c2a32",
+	"geolocation": {
+		"data": {
+			"city": "Union City",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "CA",
+				"name": "California"
+			},
+			"timezone": "America/Los_Angeles",
+			"latitude": 37.589,
+			"longitude": -122.0461
+		},
+		"timestamp": 1710886566540
+	}
 }
