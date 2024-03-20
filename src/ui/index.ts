@@ -71,6 +71,10 @@ route.addForm(
         card.addText({
             value: "Secret key used for cookie signing"
         });
+
+        card.addText({
+            value: "Clicking save will set or overwrite the following envirinment variables: PX_APP_ID, PX_AUTH_TOKEN, PX_COOKIE_SECRET. Deleting these enviroment variables wihout disabling the integration may cause the integration and/or your site to error."
+        });
     }
 );
 
