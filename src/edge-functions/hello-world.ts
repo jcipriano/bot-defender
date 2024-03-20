@@ -6,7 +6,7 @@ const pxParams = {
   px_cookie_secret: Netlify.env.get("PX_COOKIE_SECRET"),
 };
 
-export default () => new Response('Hello, world!');
+export default () => new Response('Hello, world! px_app_id:' + pxParams.px_app_id + ', px_auth_token:' + pxParams.px_auth_token + ', px_cookie_secret:' + pxParams.px_cookie_secret);
 
 export const config = {
   path: '/test',
